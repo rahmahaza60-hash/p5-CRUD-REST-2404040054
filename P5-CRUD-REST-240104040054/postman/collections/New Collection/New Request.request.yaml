@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/products
+method: POST
+body:
+  type: json
+  content: "{\"name\" :\"Pulpen Pilot Biru\",\r
+
+    \"price\":8000,\r
+
+    \"stock\":60\r
+
+    }\r\n"
+order: 1000
